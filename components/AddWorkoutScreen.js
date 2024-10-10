@@ -25,6 +25,8 @@ export default function AddWorkoutScreen() {
       return;
     }
     setWorkouts([...workouts, { sport, distance: parseFloat(distance), duration: parseFloat(duration), date }]);
+    setDistance(''); // Tyhjennetään kentät
+    setDuration('');
     setShowDetails(false); // Piilotetaan kentät treenin lisäämisen jälkeen
   };
 

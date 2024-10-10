@@ -8,11 +8,19 @@ import { styles } from '../style';
 export default function WorkoutListScreen() {
   const { workouts, unit } = useContext(WorkoutContext);
 
+  const convertDistance = (distance) => {
+    if (unit === 'miles') {
+      return (distance * 0.621371).toFixed(2);
+    } else {
+      return distance.toFixed(2);
+    }
+  };
+
   const renderWorkout = ({ item }) => (
     <Card style={styles.card}>
       <Card.Title
         title={item.sport}
-        subtitle={`${item.distance.toFixed(2)} ${unit}, ${item.duration} min, ${item.date}`}
+        subtitle={`${convertDistance(item.distance)} ${unit}, ${item.duration} min, ${item.date}`}
         left={() => (
           <Avatar.Icon size={40} icon={getIcon(item.sport)} style={styles.avatar} />
         )}
@@ -24,7 +32,7 @@ export default function WorkoutListScreen() {
   const sumBySport = (sport) => {
     const sum = workouts
       .filter((workout) => workout.sport === sport)
-      .reduce((total, workout) => total + workout.distance, 0);
+      .reduce((total, workout) => total + (unit === 'miles' ? workout.distance * 0.621371 : workout.distance), 0);
     return sum.toFixed(2);
   };
 
@@ -43,7 +51,6 @@ export default function WorkoutListScreen() {
 
   return (
     <View style={styles.container}>
-
       <FlatList
         data={workouts}
         renderItem={renderWorkout}
@@ -69,8 +76,6 @@ export default function WorkoutListScreen() {
           left={() => <MaterialCommunityIcons name="swim" size={24} color="#6b6a6a" />}
         />
       </View>
-
-  
     </View>
   );
 }
