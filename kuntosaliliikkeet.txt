@@ -1,0 +1,61 @@
+HUOM! EI LIITY VIELÄ TÄHÄN TEHTÄVÄÄN. TÄMÄ ON TULEVAA PROJEKTIA VARTEN.
+
+{
+  "liikkeet": {
+    "Ylävartalo": [
+      "Penkkipunnerrus (Rintalihas, olkapää, ojentaja)",
+      "Vinopenkkipunnerrus (Ylärinta, olkapää, ojentaja)",
+      "Käsipainopenkkipunnerrus (Rintalihas, olkapää, ojentaja)",
+      "Pystypunnerrus (Olkapää, ojentaja)",
+      "Vipunostot sivulle (Olkapää)",
+      "Vipunostot eteen (Olkapää)",
+      "Vipunostot taakse (Takaolkapää)",
+      "Kulmasoutu (Selkä, hauis, keskiselkä)",
+      "Alatalja (Leveä selkälihas, epäkäs, hauis)",
+      "Ylätalja (Leveä selkälihas, epäkäs, hauis)",
+      "Leuanveto (Leveä selkälihas, epäkäs, hauis)",
+      "Hauiskääntö tangolla (Hauis)",
+      "Hauiskääntö käsipainoilla (Hauis)",
+      "Ristikkäistalja (Rintalihas, olkapää)",
+      "Ojentajapunnerrus taljassa (Ojentaja)",
+      "Ranskalainen punnerrus (Ojentaja)",
+      "Face pull (Takaolkapää, keskiselkä, epäkäs)",
+      "Pystysoutu (Olkapää, epäkäs)",
+      "Pullover (Leveä selkälihas, rintalihas)"
+    ],
+    "Keskivartalo": [
+      "Vatsarutistus (Suorat vatsalihakset)",
+      "Jalkojen nosto (Alavatsa)",
+      "Lankku (Vatsalihakset, syvät lihakset)",
+      "Vartalon kierto taljassa (Vatsalihakset, vino vatsalihas)",
+      "Vatsalihaslaite (Suorat vatsalihakset)",
+      "Selän ojennus (Selkä, alaselkä)",
+      "Russian twist (Vino vatsalihas)",
+      "Vatsapyörä (Vatsalihakset, syvät vatsalihakset)",
+      "Kylkitaivutus käsipainolla (Vino vatsalihas)"
+    ],
+    "Alavartalo": [
+      "Kyykky (Etureisi, takareisi, pakara)",
+      "Etukyykky (Etureisi, pakara)",
+      "Askelkyykky (Etureisi, takareisi, pakara)",
+      "Bulgarialainen kyykky (Etureisi, pakara, takareisi)",
+      "Maastaveto (Alaselkä, pakara, takareisi)",
+      "Romanialainen maastaveto (Takareisi, pakara)",
+      "Sumomaastaveto (Sisäreisi, pakara, takareisi)",
+      "Jalkaprässi (Etureisi, takareisi, pakara)",
+      "Reiden ojennus (Etureisi)",
+      "Reiden koukistus (Takareisi)",
+      "Reiden loitonnus laitteessa (Lähentäjälihakset)",
+      "Reiden lähennys laitteessa (Loitontajalihakset)",
+      "Pakaraa aktivoiva potkulaite (Pakara)",
+      "Pohjenousu seisten (Pohje)",
+      "Pohjenousu istuen (Pohje)"
+    ],
+    "Koko keho": [
+      "Burpee (Koko keho)",
+      "Kettlebell swing (Pakara, selkä, jalat, keskivartalo)",
+      "Olympianosto: Tempaukset (Jalat, selkä, olkapäät, keskivartalo)",
+      "Olympianosto: Työntö (Jalat, olkapäät, keskivartalo)"
+    ]
+  }
+}
